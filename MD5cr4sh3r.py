@@ -1,7 +1,7 @@
 import hashlib
 flag = 0
 md5_hash = input("Drag your md5 hash: ")
-wordlist = input("please But Your File name: ")
+wordlist = input("please Put Your File name: ")
 try:
     pass_file = open(wordlist,"r")
 except:
